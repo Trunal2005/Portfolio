@@ -22,6 +22,19 @@ const Hero = () => {
             Full Stack Developer passionate about <br className='sm:block hidden' />
             AI, Machine Learning and Data Analytics.
           </p>
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+            className='mt-5 inline-flex items-center gap-2 rounded-full border border-[#915EFF]/40 bg-[#915EFF]/10 px-4 py-2 text-sm font-medium text-[#dfd9ff]'
+          >
+            <motion.span
+              animate={{ opacity: [0.45, 1, 0.45], scale: [0.9, 1.1, 0.9] }}
+              transition={{ duration: 2, repeat: Infinity }}
+              className='h-2 w-2 rounded-full bg-[#915EFF]'
+            />
+            Open to opportunities
+          </motion.div>
         </div>
       </div>
 
