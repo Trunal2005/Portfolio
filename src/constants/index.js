@@ -24,7 +24,7 @@ import {
 
 import airesume from "../assets/projects/ai-resume-analyzer.png";
 import netflix from "../assets/projects/netflix-clone.png";
-import portfolio from "../assets/projects/portfolio.png";
+import aiRevenueRecovery from "../assets/projects/ai-revenue-recovery.png";
 
 export const navLinks = [
   {
@@ -181,29 +181,29 @@ const projects = [
     source_code_link: "https://github.com/Trunal2005/Netflix-clone-project",
   },
   {
-    name: "Portfolio",
+    name: "AI Revenue Recovery",
     description:
-      "A modern interactive developer portfolio built using React, Tailwind CSS, and Three.js to showcase projects, skills, and experience with animated UI components.",
+      "An AI-powered revenue recovery platform that detects failed payments, analyzes recovery opportunities, and orchestrates automated recovery actions through an intelligent operations dashboard.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "threejs",
+        name: "sqlite",
         color: "pink-text-gradient",
       },
       {
-        name: "portfolio",
+        name: "vitest",
         color: "blue-text-gradient",
       },
     ],
-    image: portfolio,
-    source_code_link: "https://github.com/Trunal2005/portfolio_3d",
+    image: aiRevenueRecovery,
+    source_code_link: "https://github.com/Trunal2005/ai-revenue-recovery",
   },
 ];
 
